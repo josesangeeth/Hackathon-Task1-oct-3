@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(to right, #858017, #46732e, #006042, #004a48,
+                     #00333d, #00333d, #00333d, #00333d, #004a48, #006042, #46732e, #858017);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+/*Css style for banner image*/
+.banner-img{
+    height: 450px;
+    background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-1038810226.jpg?crop=0.973xw:0.682xh;0.0272xw,0.318xh&resize=1200:*");
+    background-size: cover;
+    box-shadow: -1px 5px 16px -3px rgba(189,149,149,0.78);
+}
+
+.book-container{
+    background : url("https://cdn.wallpapersafari.com/69/16/TUfF9C.jpg");
+    padding: 16px;
+    margin: 20px;
+    border-radius: 16px;
+    width: 260px;
+    height: 350px;
+    max-width: 430px;
+    max-height: 630px; 
+    transition: 0.3s all;
+    box-shadow: 7px 6px 5px 3px rgba(242,226,226,0.55);
+}
+
+.book-container:hover{
+    color: darkred;
+    transform: scale(1.1); 
+}
+
+.book-list{
+    display: grid;
+    place-content: center;
+}
+
+h4{
+    font-family: 'Cinzel', serif;
+    font-weight: 530;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Cinzel', serif;
+    color: white;
+    font-weight: 550;
+    text-align: center;
+}
+
